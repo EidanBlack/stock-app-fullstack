@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "yarm": "^0.4.0"
+  },
+  "name": "stock-app",
+  "version": "1.0.0",
+  "description": "Aplicacion full stack",
+  "main": "app.js",
+  "author": "Adrian Candia",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
