@@ -7,7 +7,7 @@ const app = express();
 app.get('/', (req, res) =>{
     console.log("Petición recibida");
 
-    res.status(200).sendFile('index.html');
+    res.status(200).sendFile(index.html);
 });
 
 const PORT = process.env.PORT || 4000;
