@@ -7,7 +7,7 @@ const app = express();
 app.get('/', (req, res) =>{
     console.log("Petición recibida");
 
-    res.send('Hola mundo');
+    res.status(200).send('<h1>Hola mundo</h1>');
 });
 
 const PORT = process.env.PORT || 4000;
